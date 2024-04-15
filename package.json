@@ -1,0 +1,25 @@
+{
+    "name": "clock-var",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "format": "prettier --write ."
+    },
+    "prettier": {
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5",
+        "typescript": "^5.2.2",
+        "vite": "^5.2.0"
+    },
+    "dependencies": {
+        "highlight.js": "^11.9.0"
+    }
+}
